@@ -1,2 +1,2 @@
 write-host 'Executing powershell script'
-rmdir .\build
+Remove-Item -Recurse -Force .\build
